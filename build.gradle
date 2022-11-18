@@ -23,7 +23,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-batch'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa' // JPA
 	implementation 'org.springframework.batch:spring-batch-integration' // AsyncItemProcessor, AsyncItemWriter
-	implementation 'org.springframework.boot:spring-boot-starter-webflux' // WebClient
+	implementation 'org.springframework.boot:spring-boot-starter-webflux' // WebClient -> Spring WebFlux 는 동시에 처리되어야 할 많은 요청에 대해 효율적으로 처리해줄 수 있다.
 	annotationProcessor "org.springframework.boot:spring-boot-configuration-processor" // @ConfigurationProperties
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 
